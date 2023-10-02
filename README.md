@@ -1,12 +1,19 @@
 # Report
 ## Step 1: imported all the required libraries
+
 ## Step 2: reading the csv file(i.e, the dataset)
+
 ## Step 3: used the info() function 
-The Pandas dataframe info() method provides information on the number of row-entries in the dataframe and the number of columns in the dataframe. Count of non-null entries per column, the data type of each column and the memory usage of the dataframe is also provided.
-## Step 4: we checked total null values in the data
+
+The Pandas dataframe info() method provides information on the number of row-entries in the dataframe and the number of columns in the dataframe. The count of non-null entries per column, the data type of each column, and the memory usage of the dataframe is also provided.
+
+## Step 4: we checked the total null values in the data
+
 ## Step 5: We split the data into dependent and independent features
+
 ## Step 6: Next we used StandardScaler() function 
-The StandardScaler standardizes the features by making the mean equal to zero and variance equal to one
+
+The StandardScaler standardizes the features by making the mean equal to zero and the variance equal to one
 ## Step 7: We split the data into training and testing data
 ## Step 8: Initialized a Logistic Reggression variable with hyperparameters
 
