@@ -1,20 +1,20 @@
 # Report
-## Step 1: imported all the required libraries
+## Step 1: Imported all the required libraries
 
-## Step 2: reading the csv file(i.e, the dataset)
+## Step 2: Reading the csv file(i.e, the dataset)
 
-## Step 3: used the info() function 
+## Step 3: Used the info() function 
 
 The Pandas dataframe info() method provides information on the number of row-entries in the dataframe and the number of columns in the dataframe. The count of non-null entries per column, the data type of each column, and the memory usage of the dataframe is also provided.
 
-## Step 4: we checked the total null values in the data
+## Step 4: Checked the total null values in the data
 
-## Step 5: We split the data into dependent and independent features
+## Step 5: Split the data into dependent and independent features
 
-## Step 6: Next we used StandardScaler() function 
+## Step 6: Used StandardScaler() function 
 
 The StandardScaler standardizes the features by making the mean equal to zero and the variance equal to one
-## Step 7: We split the data into training and testing data
+## Step 7: Split the data into training and testing data
 ## Step 8: Initialized a Logistic Reggression variable with hyperparameters
 
 The parameter C specifies regularization strength. Regularization implies penalizing the model for overfitting. C=1.0 is the default value for LogisticRegressor in the sklearn library.
@@ -47,6 +47,10 @@ verbose = 0 (for suppressing information during the running of the algorithm)
 
 warm_start = (default = False). when set to True, use the solution from the previous step as the initialization for the present step. This is not applicable for the liblinear solver.
 
-## Step 9: We fitted the training data to make our model
+## Step 9: Fitted the training data to make our model
 
-## Step 10: Now we tested the accuracy of our model
+## Step 10: Tested the accuracy of our model
+
+## Conclusion
+
+Developed a logistic regression model for heart disease prediction using a dataset from the UCI repository. Focused on gaining an in-depth understanding of the hyperparameters, libraries and code used when defining a logistic regression model through the scikit-learn library.
