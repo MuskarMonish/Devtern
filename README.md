@@ -45,11 +45,15 @@ tol = Tolerance for stopping criteria (default = 1e-4)
 
 verbose = 0 (for suppressing information during the running of the algorithm)
 
-warm_start = (default = False). when set to True, use the solution from the previous step as the initialization for the present step. This is not applicable for the liblinear solver.
+warm_start = (default = False). when set to True, use the solution from the previous step as the initialization for the present step. 
 
 ## Step 9: Fitted the training data to make our model
 
 ## Step 10: Tested the accuracy of our model
+
+## Results
+
+Achieved an accuracy of 89.47%.
 
 ## Conclusion
 
